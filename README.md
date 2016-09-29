@@ -1,7 +1,15 @@
 # fe-teaching
-<ul style="position:relative">
-	<li id="pageTop">
-		<a href="#chapter1"></a>
+<ul>
+	<li>
+		<a href="./chapter0.md">chapter0</a>
 	</li>
-	<a href="./chapter0.md" style="position:absolute;bottom:0;right:0">1</a>
+	<li>
+		<a href="./chapter1.md">chapter1</a>
+	</li>
+	<li>
+		<a href="./chapter2.md">chapter2</a>
+	</li>
+	<li>
+		<a href="./chapter3.md">chapter3</a>
+	</li>
 </ul>
