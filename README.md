@@ -3,5 +3,5 @@
 	<li id="pageTop">
 		<a href="#chapter1"></a>
 	</li>
-	<a href="#pageTop" style="position:absolute;bottom:0;right:0">返回目录</a>
+	<a href="./test.html" style="position:absolute;bottom:0;right:0">返回目录</a>
 </ul>
