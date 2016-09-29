@@ -6,12 +6,12 @@
 	<li>创建之后对文件右键，打开方式->记事本。</li>
 	<li>输入<br/>
 <pre>
-	<html>
-		<head></head>
-		<body>
-			<p>hello world</p>
-		</body>
-	</html>
+	&lt;html>
+		&lt;head>&lt;/head>
+		&lt;body>
+			&lt;p>hello world&lt;/p>
+		&lt;/body>
+	&lt;/html>
 </pre>
 	</li>
 </ol>
