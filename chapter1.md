@@ -41,7 +41,7 @@
 	&lt;div>是一个容器，熟悉PS的童鞋可以联想一下图层。没有具体的特征，只是用来包裹住其他标签。<br/>
 	&lt;p>是一个段落，用来包裹住一段文字。<br/>
 	&lt;span>用来包裹文字，但不换行<br/>
-	&lt;h1>到h6，用来包裹文字标题。字体从大到小。标题的作用是有利于<a href="http://baike.baidu.com/link?url=388NV_quGc__xJAU7uweiLGgF3vbq0aAEusTbKi2layF_GFI_1sgtQPH4Acqm6pqK_3G-3FyLXbCHXDVOtdIMa">SEO</a>一个网页最好只有一个h1标题。<br/>
+	&lt;h1>到h6，用来包裹文字标题。字体从大到小。标题的作用是有利于<a href="http://baike.baidu.com/link?url=388NV_quGc__xJAU7uweiLGgF3vbq0aAEusTbKi2layF_GFI_1sgtQPH4Acqm6pqK_3G-3FyLXbCHXDVOtdIMa">SEO</a>，一个网页最好只有一个h1标题。<br/>
 	好了，现在可以做一个小任务：创建一个html文件并随便嵌套以上的标签和文字吧。<br/>
 	<code>关于编辑器。对于初学者我始终坚持可以用记事本来编辑网页的，每一个字母都要手敲会让你记得更深一些。好用的编辑器固然让你写起来很快很爽，但是基本功还是要打，不要太依赖工具。等你记得牢大部分标签的时候，推荐用sublime text吧</code>
 </p>
