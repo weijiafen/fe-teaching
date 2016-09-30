@@ -38,13 +38,15 @@ Are you sure you want to continue connecting (yes/no)?
 	</li>
 	<li>
 		<p>
-			在Git bash窗口输入git config --global user.name "your name"<br/>
-			git config --global user.email "your email"  #配置你的姓名和邮箱<br/>
+			在Git bash窗口输入
+			<blockquote>git config --global user.name "your name"<br/>
+			git config --global user.email "your email"  #配置你的姓名和邮箱 <br/></blockquote>
 			以上就配置成功了。拉取github上的项目只需重复以下步骤
 		</p>
 	</li>
 	<li>
-		<p>在Git bash窗口输入git clone git@github.com:weijiafen/fe-teaching.git  
+		<p>在Git bash窗口输入
+		<blockquote> git clone git@github.com:weijiafen/fe-teaching.git  </blockquote>
 			<br/>
 			github.com:weijiafen/fe-teaching.git 为你要拉的项目github地址
 		</p>
