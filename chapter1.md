@@ -51,9 +51,10 @@
 		&lt;meta charset='utf-8'/>
 		或&lt;meta charset="gb2312" />
 	</blockquote>
-	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>是一个很又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。</p>
+	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>是一个很又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。
+	</p>
 	<p>
-	接下来介绍的标签是列表和表格。列表有有序列表<ol>和无序列表<ul>两种，使用的方式如下：
+	接下来介绍的标签是列表和表格。列表有有序列表&lt;ol>和无序列表&lt;ul>两种，使用的方式如下：
 	<blockquote>
 		&lt;ol>
 			&lt;li>第一项&lt;li>
