@@ -10,10 +10,24 @@ img标签表示一张图片，src表示图片地址，demo1中指向了已经准
 <h2>Form 表单</h2>
 <p>网站的功能就是向用户展示数据，并通过用户的点击、输入信息来跟后台交互，form表单就担任着信息交互的信使。用户的输入通过表单向后台服务器传输数据，例如登录功能，用户就需要填写账号密码。文本框和密码框就是表单中的两种。另外还有单选框，复选框，选择框等。下面一一介绍：<br/>
 &lt;form action="someurl" method="post">&lt;/form>表示一个表单，所有的表单项放在form标签内,随着提交操作全部提交给后台处理，action属性填写一个表单所要提交的后台地址，method表示表单提交的方式，主要有get和post，这两个属性前期可以不深究。<br/>
-&lt;input type="text" name="username" value="defaultname" />input表单是单标签，type表示表单类型，这里指文本框。name属性是给这个表单项定义一个名字，方便后台获取。<br/>
-&lt;input type="password" name="username" value="defaultname" />
-
+&lt;input type="text" name="username" value="defaultname" />input表单是单标签，type表示表单类型，这里指文本框。 value则是这个表单的值，这里给了一个默认值。name属性是给这个表单项定义一个名字，方便后台获取。<br/>
+&lt;input type="password" name="psd" />密码框<br/>
+&lt;input type="radio" name="sex" value="man"/>单选框，name属性在此类中除了定义一个名字外，还将单选框归类，name相同的单选框才是同一组单选框，不信你写几个单选框不定义相同的name，就没有单选的效果，value则是单选框选中时的值。<br/>
+&lt;input type="checkbox" name="hobby" value="football"/>复选框，name与单选框一样，将复选框分组。value是选择的值。<br/>
+比较不一样的是选择框:<br/>
+<pre>
+	&lt;select name="country">
+		&lt;option value="1">中国&lt;/option>
+		&lt;option value="2">美国&lt;/option>
+	&lt;/select>
+</pre>
+以上就是常用的表单项，每个表单将值放在value里面传输给后台<br/>
+还有一个比较少用的是type="hidden"，这是一个隐藏表单，用户看不到，也不能输入值，但是并不是没用的，在有些场景，后台要求传一些固定的参数过去，这个参数并不需要用户选择或输入，就会放在一个隐藏表单里面跟随form一起提交过去。<br/>
+那么接下来，你写一个注册表单吧，包含账号名，密码，性别，爱好，国籍等，将各类表单演习一遍，然后对比一下demo1中的form.html<br/>
+demo中使用了一个&lt;label>标签包裹住了表单项，其功能是将表单与文字包裹在一起，这样在点击文字的时候也触发表单项，如果没有使用label包裹着，那你可以自己试试点击单选框有多麻烦。
+<br/>
+至此，html常用的标签介绍得差不多了，要全部刷一遍建议去w3school，或者看一看《head first html》(听说很经典的一本书，反正我没看过)。<br/>
+html主要功能就是使用标签展示文字、图片、音乐、视频、列表数据、表格数据，使用超链接跳转页面，使用form提交数据。需要注意的就是合理的嵌套关系了。那么接下来就是CSS的学习了。
 </p>
-<input type="password">
 <a href="./README.md">返回目录</a>
 <a href="./chapter3.md">下一章</a>
