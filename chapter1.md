@@ -23,7 +23,7 @@
 	<li>双击打开，或者直接拖动到浏览器打开</li>
 </ol>
 </p>
-<p>到这里你发现了。浏览器里只出现了从大到小的6句hello world，那些尖括号里面的东西都不见了。<br/>
+<p>到这里你发现了。浏览器里只出现了从大到小的6句hello world，那些尖括号里面的东西都不见了。这是因为浏览器能够解析html文件，将html标签解析成具备特定功能的命令<br/>
 现在可以参照着概念啃了。
 <ol>
 	<li>HTML 指的是超文本标记语言 (Hyper Text Markup Language)</li>
@@ -51,8 +51,24 @@
 		&lt;meta charset='utf-8'/>
 		或&lt;meta charset="gb2312" />
 	</blockquote>
+	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>是一个很又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。</p>
+	<p>
+	接下来介绍的标签是列表和表格。列表有有序列表<ol>和无序列表<ul>两种，使用的方式如下：
+	<blockquote>
+		&lt;ol>
+			&lt;li>第一项&lt;li>
+			&lt;li>第二项&lt;li>
+			&lt;li>第三项&lt;li>
+		&lt;ol>
+		&lt;ul>
+			&lt;li>第一项&lt;li>
+			&lt;li>第二项&lt;li>
+			&lt;li>第三项&lt;li>
+		&lt;ul>
+	</blockquote>
+	</p>
 	<code>关于编辑器。对于初学者我始终坚持可以用记事本来编辑网页的，每一个字母都要手敲会让你记得更深一些。好用的编辑器固然让你写起来很快很爽，但是基本功还是要打，不要太依赖工具。等你记得牢大部分标签的时候，推荐用sublime text吧</code>
-</p>
+
 （待续。。。）
 <a href="./README.md">返回目录</a>
 <a href="./chapter2.md">下一章</a>
