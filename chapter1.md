@@ -51,7 +51,7 @@
 		&lt;meta charset='utf-8'/>
 		或&lt;meta charset="gb2312" />
 	</blockquote>
-	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>是一个很又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。<br/>
+	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。<br/>
 	接下来介绍的标签是列表和表格。列表有有序列表&lt;ol>和无序列表&lt;ul>两种，使用的方式如下：
 	<pre>
 		&lt;ol>
@@ -94,6 +94,21 @@
 			&lt;/tbody>
 		&lt;/table>
 	</pre>
+	那么接下来把上面的代码都敲一遍吧。然后把有序列表改成一个动漫热度排行榜吧。（像下面这样）：
+	<blockquote>
+		<ol>
+			<li>海贼王</li>
+			<li>火影忍者</li>
+			<li>死神</li>
+			<li>秦时明月</li>
+			<li>名侦探柯南</li>
+			<li>龙珠</li>
+			<li>熊出没</li>
+			<li>灵域</li>
+			<li>画江湖不良人</li>
+			<li>妖精的尾巴</li>
+		</ol>
+	</blockquote>
 	<code>关于编辑器。对于初学者我始终坚持可以用记事本来编辑网页的，每一个字母都要手敲会让你记得更深一些。好用的编辑器固然让你写起来很快很爽，但是基本功还是要打，不要太依赖工具。等你记得牢大部分标签的时候，推荐用sublime text吧</code>
 	</p>
 
