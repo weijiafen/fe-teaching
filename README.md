@@ -12,7 +12,7 @@
 		<a href="./chapter1.md">chapter1 HTML篇(一)</a>
 	</li>
 	<li>
-		<a href="./chapter2.md">chapter2 </a>
+		<a href="./chapter2.md">chapter2 HTML篇(二)</a>
 	</li>
 	<li>
 		<a href="./chapter3.md">chapter3</a>
