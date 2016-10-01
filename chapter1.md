@@ -47,12 +47,12 @@
 	好了，现在可以做一个小任务：创建一个html文件并随便嵌套以上的标签和文字吧,文本用中文试试？<br/>
 	我想你应该不会蠢到写出&lt;p>&lt;span>&lt;/p>&lt;/span>这样的嵌套关系吧？很明显这是不正确的嵌套关系。双标签开始后必须结束最近的那个标签，单标签如&lt;br/>开始即是结束。<br/>
 	如果你完成了上面的小任务一定遇到了一个问题，中文为什么是乱码的？解决方法是在head标签里面加上这么一句<br/>
+	</p>
 	<blockquote>
 		&lt;meta charset='utf-8'/>
 		或&lt;meta charset="gb2312" />
 	</blockquote>
 	<a href="http://baike.baidu.com/link?url=PfC1p4N4sU53AzpyOUwLCL75DPESVkd-Uemjc7CLL0FUje2eh05Wbjst7degZWXd3XR6Ad3vlW1rdFDDVP9xIDdZoOWKwLZDYVr76GzWYLU-QwSS0Muk1sEzcyKCk5m8">字符编码</a>是一个很又是另一个话题了，在这里你可以简单地记住这两个能够让网页的中文正确地显示，其中utf-8是用得比较多的。
-	</p>
 	<p>
 	接下来介绍的标签是列表和表格。列表有有序列表&lt;ol>和无序列表&lt;ul>两种，使用的方式如下：
 	
