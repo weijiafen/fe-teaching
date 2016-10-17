@@ -39,5 +39,6 @@
 </ol>
 </blockquote>
 </p>
+<p>好了，接下来，你试一下用三种应用样式表的方法，成功将样式应用到页面上吧</p>
 <a href="./README.md">返回目录</a>
 <a href="./chapter4.md">下一章</a>

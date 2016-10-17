@@ -15,7 +15,10 @@
 		<a href="./chapter2.md">chapter2 HTML篇(二)</a>
 	</li>
 	<li>
-		<a href="./chapter3.md">chapter3</a>
+		<a href="./chapter3.md">chapter3 CSS篇（一）</a>
+	</li>
+	<li>
+		<a href="./chapter4.md">chapter3 CSS篇（二）</a>
 	</li>
 </ul>
 <h2>番外篇</h2>
