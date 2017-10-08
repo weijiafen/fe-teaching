@@ -6,10 +6,10 @@ GIT 是什么，Github是什么？自己百度吧。总之这就是一个存放�
 2. 注册并登陆github
 `https://github.com/`
 3. 生成SSH
- 1. 在随意目录下新建一个文件夹gittest
- 2. 鼠标右键“Git bash”
- 3. 输入ssh-keygen -t rsa -C "xxxxxx@yy.com"  #建议填写自己真实有效的邮箱地址，一直回车
- 4.测试ssh keys是否设置成功。
+    1. 在随意目录下新建一个文件夹gittest
+    2. 鼠标右键“Git bash”
+    3. 输入ssh-keygen -t rsa -C "xxxxxx@yy.com"  #建议填写自己真实有效的邮箱地址，一直回车
+    4.测试ssh keys是否设置成功。
 `$ ssh -T git@github.com`
 输出：The authenticity of host 'github.com (192.30.252.129)' can't be established.
 RSA key fingerprint is 16:27:xx:xx:xx:xx:xx:4d:eb:df:a6:48.
